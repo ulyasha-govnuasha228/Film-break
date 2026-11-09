@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>713</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1080</width>
+    <height>713</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1080</width>
+    <height>713</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>20</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Form {
+    border-image: url(&quot;C:/Users/Ully/Downloads/фооон для регистрации.png&quot;) 0 0 0 0 stretch stretch;
+}</string>
+  </property>
+  <widget class="QLabel" name="label_registration">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>1081</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Serif</family>
+     <pointsize>26</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+   </property>
+   <property name="text">
+    <string>Регистрация</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>310</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Serif</family>
+     <pointsize>21</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+   </property>
+   <property name="text">
+    <string>Необязательные поля:</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>90</y>
+     <width>321</width>
+     <height>212</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
+      <property name="text">
+       <string>Имя:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
+      <property name="text">
+       <string>Никнейм:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
+      <property name="text">
+       <string>Номер телефона:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
+      <property name="text">
+       <string>Дата рождения:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_13">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
+      <property name="text">
+       <string>Пароль:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>370</y>
+     <width>479</width>
+     <height>235</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
+      <property name="text">
+       <string>Фото профиля:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
+      <property name="text">
+       <string>Любимое кино:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
+      <property name="text">
+       <string>Любимый режиссер:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
+      <property name="text">
+       <string>Любимый актер:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
+      <property name="text">
+       <string>Любимый сценарист:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_11">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
+      <property name="text">
+       <string>Иной запомнившийся участник кино:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>90</y>
+     <width>191</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLineEdit" name="lineEdit_name">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: rgba(35, 39, 55, 220);
+    border-image: none;
+    color: white;
+    border: 1px solid rgba(220, 220, 255, 150);
+    border-radius: 8px;
+    padding: 6px;
+}
+
+QLineEdit:focus {
+    background-color: rgba(35, 39, 55, 235);
+    border: 1px solid rgb(220, 180, 255);
+}
+
+</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_nickname">
+      <property name="styleSheet">
+       <string notr="true">
+QLineEdit {
+    background-color: rgba(35, 39, 55, 220);
+    border-image: none;
+    color: white;
+    border: 1px solid rgba(220, 220, 255, 150);
+    border-radius: 8px;
+    padding: 6px;
+}
+
+QLineEdit:focus {
+    background-color: rgba(35, 39, 55, 235);
+    border: 1px solid rgb(220, 180, 255);
+}
+</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_number">
+      <property name="styleSheet">
+       <string notr="true">
+QLineEdit {
+    background-color: rgba(35, 39, 55, 220);
+    border-image: none;
+    color: white;
+    border: 1px solid rgba(220, 220, 255, 150);
+    border-radius: 8px;
+    padding: 6px;
+}
+
+QLineEdit:focus {
+    background-color: rgba(35, 39, 55, 235);
+    border: 1px solid rgb(220, 180, 255);
+}
+</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDateEdit" name="dateEdit_dr">
+      <property name="styleSheet">
+       <string notr="true">
+QDateEdit {
+    background-color: rgba(35, 39, 55, 220);
+    border-image: none;
+    color: white;
+    border: 1px solid rgba(220, 220, 255, 150);
+    border-radius: 8px;
+    padding: 6px;
+    selection-background-color: #b68bbd;
+}
+
+QDateEdit:focus {
+    background-color: rgba(35, 39, 55, 235);
+    border: 1px solid rgb(220, 180, 255);
+}
+
+QDateEdit::drop-down {
+    border: none;
+    width: 24px;
+}
+
+QDateEdit::down-arrow {
+    width: 8px;
+    height: 8px;
+}
+</string>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_password">
+      <property name="styleSheet">
+       <string notr="true">
+QLineEdit {
+    background-color: rgba(35, 39, 55, 220);
+    border-image: none;
+    color: white;
+    border: 1px solid rgba(220, 220, 255, 150);
+    border-radius: 8px;
+    padding: 6px;
+}
+
+QLineEdit:focus {
+    background-color: rgba(35, 39, 55, 235);
+    border: 1px solid rgb(220, 180, 255);
+}
+</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>650</y>
+     <width>121</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Serif</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+    background-color: rgba(180, 160, 210, 90);
+    background-image: none;
+    border-image: none;
+    color: rgb(245, 240, 255);
+    border: 1px solid rgba(220, 205, 255, 150);
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: rgba(180, 160, 210, 140);
+}
+
+QPushButton:pressed {
+    background-color: rgba(140, 120, 175, 180);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Добавить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>620</y>
+     <width>251</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Serif</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+   </property>
+   <property name="text">
+    <string>Не нашли то, что нужно?</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>370</y>
+     <width>211</width>
+     <height>249</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="labe_foto">
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../../Downloads/проФИЛЬ.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_upload_photo">
+        <property name="styleSheet">
+         <string notr="true">
+QPushButton {
+    background-color: rgb(42, 39, 58);
+    background-image: none;
+    border-image: none;
+    color: white;
+    border: 1px solid rgb(150, 130, 185);
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: rgb(62, 53, 82);
+    border: 1px solid rgb(220, 180, 255);
+}
+
+QPushButton:pressed {
+    background-color: rgb(30, 28, 43);
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Загрузить фото</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_kino">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+      <property name="currentText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_regisers">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+      <property name="currentText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_acters">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+      <property name="currentText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_scenario">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_uchastnik">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+      <property name="currentText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_zaregestrirovat">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>640</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Serif</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+    background-color: rgba(180, 160, 210, 90);
+    background-image: none;
+    border-image: none;
+    color: rgb(245, 240, 255);
+    border: 1px solid rgba(220, 205, 255, 150);
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: rgba(180, 160, 210, 140);
+}
+
+QPushButton:pressed {
+    background-color: rgba(140, 120, 175, 180);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Продолжить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_entrance">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>650</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Serif</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+    background-color: rgba(180, 160, 210, 90);
+    background-image: none;
+    border-image: none;
+    color: rgb(245, 240, 255);
+    border: 1px solid rgba(220, 205, 255, 150);
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: rgba(180, 160, 210, 140);
+}
+
+QPushButton:pressed {
+    background-color: rgba(140, 120, 175, 180);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Войти</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>600</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Serif</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+   </property>
+   <property name="text">
+    <string>Уже есть аккаунт?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>680</y>
+     <width>551</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Serif</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+   </property>
+   <property name="text">
+    <string>*Больше любимого кино, режиссеров и тд можно будет добавить позже</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
