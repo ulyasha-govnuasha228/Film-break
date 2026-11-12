@@ -338,13 +338,13 @@ border-image: none;</string>
     <rect>
      <x>650</x>
      <y>90</y>
-     <width>191</width>
-     <height>211</height>
+     <width>227</width>
+     <height>247</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_3">
     <item>
-     <widget class="QLineEdit" name="lineEdit_name">
+     <widget class="QLineEdit" name="lineedit_name">
       <property name="styleSheet">
        <string notr="true">QLineEdit {
     background-color: rgba(35, 39, 55, 220);
@@ -365,7 +365,7 @@ QLineEdit:focus {
      </widget>
     </item>
     <item>
-     <widget class="QLineEdit" name="lineEdit_nickname">
+     <widget class="QLineEdit" name="lineedit_nickname">
       <property name="styleSheet">
        <string notr="true">
 QLineEdit {
@@ -386,7 +386,7 @@ QLineEdit:focus {
      </widget>
     </item>
     <item>
-     <widget class="QLineEdit" name="lineEdit_number">
+     <widget class="QLineEdit" name="lineedit_number">
       <property name="styleSheet">
        <string notr="true">
 QLineEdit {
@@ -407,7 +407,7 @@ QLineEdit:focus {
      </widget>
     </item>
     <item>
-     <widget class="QDateEdit" name="dateEdit_dr">
+     <widget class="QDateEdit" name="dateedit_dr">
       <property name="styleSheet">
        <string notr="true">
 QDateEdit {
@@ -442,7 +442,7 @@ QDateEdit::down-arrow {
      </widget>
     </item>
     <item>
-     <widget class="QLineEdit" name="lineEdit_password">
+     <widget class="QLineEdit" name="lineedit_password">
       <property name="styleSheet">
        <string notr="true">
 QLineEdit {
@@ -464,7 +464,7 @@ QLineEdit:focus {
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="pushbutton">
    <property name="geometry">
     <rect>
      <x>430</x>
@@ -601,7 +601,7 @@ QPushButton:pressed {
      </layout>
     </item>
     <item>
-     <widget class="QComboBox" name="comboBox_kino">
+     <widget class="QComboBox" name="combobox_kino">
       <property name="styleSheet">
        <string notr="true">
 QComboBox {
@@ -659,7 +659,7 @@ QComboBox QAbstractItemView {
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="comboBox_regisers">
+     <widget class="QComboBox" name="combobox_regisers">
       <property name="styleSheet">
        <string notr="true">
 QComboBox {
@@ -717,7 +717,7 @@ QComboBox QAbstractItemView {
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="comboBox_acters">
+     <widget class="QComboBox" name="combobox_acters">
       <property name="styleSheet">
        <string notr="true">
 QComboBox {
@@ -775,7 +775,7 @@ QComboBox QAbstractItemView {
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="comboBox_scenario">
+     <widget class="QComboBox" name="combobox_scenario">
       <property name="styleSheet">
        <string notr="true">
 QComboBox {
@@ -827,7 +827,7 @@ QComboBox QAbstractItemView {
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="comboBox_uchastnik">
+     <widget class="QComboBox" name="combobox_uchastnik">
       <property name="styleSheet">
        <string notr="true">
 QComboBox {
@@ -886,7 +886,7 @@ QComboBox QAbstractItemView {
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="pushButton_zaregestrirovat">
+  <widget class="QPushButton" name="pushbutton_zaregestrirovat">
    <property name="geometry">
     <rect>
      <x>740</x>
@@ -926,7 +926,7 @@ QPushButton:pressed {
     <string>Продолжить</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_entrance">
+  <widget class="QPushButton" name="pushbutton_entrance">
    <property name="geometry">
     <rect>
      <x>100</x>

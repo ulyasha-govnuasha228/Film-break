@@ -31,13 +31,24 @@
     <rect>
      <x>30</x>
      <y>90</y>
-     <width>391</width>
+     <width>470</width>
      <height>511</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
       <property name="text">
        <string>Никнейм:</string>
       </property>
@@ -45,6 +56,17 @@
     </item>
     <item>
      <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
       <property name="text">
        <string>Имя:</string>
       </property>
@@ -52,6 +74,17 @@
     </item>
     <item>
      <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
       <property name="text">
        <string>Дата рождения:</string>
       </property>
@@ -59,6 +92,17 @@
     </item>
     <item>
      <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
       <property name="text">
        <string>Телефон:</string>
       </property>
@@ -66,6 +110,17 @@
     </item>
     <item>
      <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
       <property name="text">
        <string>Любимые фильмы:</string>
       </property>
@@ -73,6 +128,17 @@
     </item>
     <item>
      <widget class="QLabel" name="label_7">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
       <property name="text">
        <string>Любимый режиссеры:</string>
       </property>
@@ -80,6 +146,17 @@
     </item>
     <item>
      <widget class="QLabel" name="label_8">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
       <property name="text">
        <string>Любимые актеры:</string>
       </property>
@@ -87,6 +164,17 @@
     </item>
     <item>
      <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
       <property name="text">
        <string>Любимые сценаристы:</string>
       </property>
@@ -94,6 +182,17 @@
     </item>
     <item>
      <widget class="QLabel" name="label_10">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
       <property name="text">
        <string>Любимые иные участники кино:</string>
       </property>
@@ -112,13 +211,160 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
-     <widget class="QComboBox" name="btn_film"/>
+     <widget class="QComboBox" name="btn_film">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="btn_film2"/>
+     <widget class="QComboBox" name="btn_film2">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="btn_film3"/>
+     <widget class="QComboBox" name="btn_film3">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -133,13 +379,160 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_2">
     <item>
-     <widget class="QComboBox" name="btn_actor"/>
+     <widget class="QComboBox" name="btn_actor">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="btn_actor2"/>
+     <widget class="QComboBox" name="btn_actor2">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="btn_actor3"/>
+     <widget class="QComboBox" name="btn_actor3">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -154,13 +547,160 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_3">
     <item>
-     <widget class="QComboBox" name="btn_uch"/>
+     <widget class="QComboBox" name="btn_uch">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="btn_uch2"/>
+     <widget class="QComboBox" name="btn_uch2">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="btn_uch3"/>
+     <widget class="QComboBox" name="btn_uch3">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -175,13 +715,160 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_4">
     <item>
-     <widget class="QComboBox" name="btn_scen"/>
+     <widget class="QComboBox" name="btn_scen">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="btn_scen2"/>
+     <widget class="QComboBox" name="btn_scen2">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="btn_scen3"/>
+     <widget class="QComboBox" name="btn_scen3">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -196,13 +883,160 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_5">
     <item>
-     <widget class="QComboBox" name="btn_reg"/>
+     <widget class="QComboBox" name="btn_reg">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="btn_reg2"/>
+     <widget class="QComboBox" name="btn_reg2">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="btn_reg3"/>
+     <widget class="QComboBox" name="btn_reg3">
+      <property name="styleSheet">
+       <string notr="true">
+QComboBox {
+    background-color: rgba(40, 38, 52, 220);
+    background-image: none;
+    border-image: none;
+    border: 1px solid rgba(190, 165, 225, 170);
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: rgb(245, 240, 255);
+    min-height: 20px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(210, 185, 245);
+}
+
+QComboBox:focus {
+    border: 1px solid rgb(220, 190, 255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(40, 38, 52);
+    color: rgb(245, 240, 255);
+    selection-background-color: rgb(100, 82, 130);
+    selection-color: white;
+    border: 1px solid rgb(160, 135, 195);
+    outline: none;
+}
+</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -217,30 +1051,102 @@
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_4">
     <item>
-     <widget class="QLabel" name="label_11">
+     <widget class="QLabel" name="label_nickname">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QLabel" name="label_12">
+     <widget class="QLabel" name="label_name">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QDateEdit" name="dateEdit"/>
+     <widget class="QDateEdit" name="dateedit">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
     </item>
     <item>
-     <widget class="QLabel" name="label_13">
+     <widget class="QLabel" name="label_number">
+      <property name="font">
+       <font>
+        <family>MS Serif</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QPushButton" name="btn_settings">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>30</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+    background-color: rgba(180, 160, 210, 90);
+    background-image: none;
+    border-image: none;
+    color: rgb(245, 240, 255);
+    border: 1px solid rgba(220, 205, 255, 150);
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: rgba(180, 160, 210, 140);
+}
+
+QPushButton:pressed {
+    background-color: rgba(140, 120, 175, 180);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Настройки</string>
+   </property>
   </widget>
  </widget>
  <resources/>

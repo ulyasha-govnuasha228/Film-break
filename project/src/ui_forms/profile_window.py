@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'profile_window.ui'
+# Form implementation generated from reading ui file 'src/files_ui/profile_window.ui'
 #
 # Created by: PyQt6 UI code generator 6.11.0
 #
@@ -17,36 +17,99 @@ class Ui_Form_profile(object):
         self.label.setGeometry(QtCore.QRect(480, 10, 91, 91))
         self.label.setObjectName("label")
         self.verticalLayoutWidget = QtWidgets.QWidget(parent=Form_profile)
-        self.verticalLayoutWidget.setGeometry(QtCore.QRect(30, 90, 391, 511))
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(30, 90, 470, 511))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout.setObjectName("verticalLayout")
         self.label_3 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("MS Serif")
+        font.setPointSize(16)
+        self.label_3.setFont(font)
+        self.label_3.setStyleSheet("background-color: transparent;\n"
+"color: rgb(225, 225, 225);\n"
+"border-image: none;")
         self.label_3.setObjectName("label_3")
         self.verticalLayout.addWidget(self.label_3)
         self.label_2 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("MS Serif")
+        font.setPointSize(16)
+        self.label_2.setFont(font)
+        self.label_2.setStyleSheet("background-color: transparent;\n"
+"color: rgb(225, 225, 225);\n"
+"border-image: none;")
         self.label_2.setObjectName("label_2")
         self.verticalLayout.addWidget(self.label_2)
         self.label_4 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("MS Serif")
+        font.setPointSize(16)
+        self.label_4.setFont(font)
+        self.label_4.setStyleSheet("background-color: transparent;\n"
+"color: rgb(225, 225, 225);\n"
+"border-image: none;")
         self.label_4.setObjectName("label_4")
         self.verticalLayout.addWidget(self.label_4)
         self.label_5 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("MS Serif")
+        font.setPointSize(16)
+        self.label_5.setFont(font)
+        self.label_5.setStyleSheet("background-color: transparent;\n"
+"color: rgb(225, 225, 225);\n"
+"border-image: none;")
         self.label_5.setObjectName("label_5")
         self.verticalLayout.addWidget(self.label_5)
         self.label_6 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("MS Serif")
+        font.setPointSize(16)
+        self.label_6.setFont(font)
+        self.label_6.setStyleSheet("background-color: transparent;\n"
+"color: rgb(225, 225, 225);\n"
+"border-image: none;")
         self.label_6.setObjectName("label_6")
         self.verticalLayout.addWidget(self.label_6)
         self.label_7 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("MS Serif")
+        font.setPointSize(16)
+        self.label_7.setFont(font)
+        self.label_7.setStyleSheet("background-color: transparent;\n"
+"color: rgb(225, 225, 225);\n"
+"border-image: none;")
         self.label_7.setObjectName("label_7")
         self.verticalLayout.addWidget(self.label_7)
         self.label_8 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("MS Serif")
+        font.setPointSize(16)
+        self.label_8.setFont(font)
+        self.label_8.setStyleSheet("background-color: transparent;\n"
+"color: rgb(225, 225, 225);\n"
+"border-image: none;")
         self.label_8.setObjectName("label_8")
         self.verticalLayout.addWidget(self.label_8)
         self.label_9 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("MS Serif")
+        font.setPointSize(16)
+        self.label_9.setFont(font)
+        self.label_9.setStyleSheet("background-color: transparent;\n"
+"color: rgb(225, 225, 225);\n"
+"border-image: none;")
         self.label_9.setObjectName("label_9")
         self.verticalLayout.addWidget(self.label_9)
         self.label_10 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("MS Serif")
+        font.setPointSize(16)
+        self.label_10.setFont(font)
+        self.label_10.setStyleSheet("background-color: transparent;\n"
+"color: rgb(225, 225, 225);\n"
+"border-image: none;")
         self.label_10.setObjectName("label_10")
         self.verticalLayout.addWidget(self.label_10)
         self.horizontalLayoutWidget = QtWidgets.QWidget(parent=Form_profile)
@@ -56,12 +119,150 @@ class Ui_Form_profile(object):
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.btn_film = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget)
+        self.btn_film.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_film.setObjectName("btn_film")
         self.horizontalLayout.addWidget(self.btn_film)
         self.btn_film2 = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget)
+        self.btn_film2.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_film2.setObjectName("btn_film2")
         self.horizontalLayout.addWidget(self.btn_film2)
         self.btn_film3 = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget)
+        self.btn_film3.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_film3.setObjectName("btn_film3")
         self.horizontalLayout.addWidget(self.btn_film3)
         self.horizontalLayoutWidget_2 = QtWidgets.QWidget(parent=Form_profile)
@@ -71,12 +272,150 @@ class Ui_Form_profile(object):
         self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_2.setObjectName("horizontalLayout_2")
         self.btn_actor = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget_2)
+        self.btn_actor.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_actor.setObjectName("btn_actor")
         self.horizontalLayout_2.addWidget(self.btn_actor)
         self.btn_actor2 = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget_2)
+        self.btn_actor2.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_actor2.setObjectName("btn_actor2")
         self.horizontalLayout_2.addWidget(self.btn_actor2)
         self.btn_actor3 = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget_2)
+        self.btn_actor3.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_actor3.setObjectName("btn_actor3")
         self.horizontalLayout_2.addWidget(self.btn_actor3)
         self.horizontalLayoutWidget_3 = QtWidgets.QWidget(parent=Form_profile)
@@ -86,12 +425,150 @@ class Ui_Form_profile(object):
         self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
         self.btn_uch = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget_3)
+        self.btn_uch.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_uch.setObjectName("btn_uch")
         self.horizontalLayout_3.addWidget(self.btn_uch)
         self.btn_uch2 = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget_3)
+        self.btn_uch2.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_uch2.setObjectName("btn_uch2")
         self.horizontalLayout_3.addWidget(self.btn_uch2)
         self.btn_uch3 = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget_3)
+        self.btn_uch3.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_uch3.setObjectName("btn_uch3")
         self.horizontalLayout_3.addWidget(self.btn_uch3)
         self.horizontalLayoutWidget_4 = QtWidgets.QWidget(parent=Form_profile)
@@ -101,12 +578,150 @@ class Ui_Form_profile(object):
         self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_4.setObjectName("horizontalLayout_4")
         self.btn_scen = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget_4)
+        self.btn_scen.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_scen.setObjectName("btn_scen")
         self.horizontalLayout_4.addWidget(self.btn_scen)
         self.btn_scen2 = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget_4)
+        self.btn_scen2.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_scen2.setObjectName("btn_scen2")
         self.horizontalLayout_4.addWidget(self.btn_scen2)
         self.btn_scen3 = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget_4)
+        self.btn_scen3.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_scen3.setObjectName("btn_scen3")
         self.horizontalLayout_4.addWidget(self.btn_scen3)
         self.horizontalLayoutWidget_5 = QtWidgets.QWidget(parent=Form_profile)
@@ -116,12 +731,150 @@ class Ui_Form_profile(object):
         self.horizontalLayout_5.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_5.setObjectName("horizontalLayout_5")
         self.btn_reg = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget_5)
+        self.btn_reg.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_reg.setObjectName("btn_reg")
         self.horizontalLayout_5.addWidget(self.btn_reg)
         self.btn_reg2 = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget_5)
+        self.btn_reg2.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_reg2.setObjectName("btn_reg2")
         self.horizontalLayout_5.addWidget(self.btn_reg2)
         self.btn_reg3 = QtWidgets.QComboBox(parent=self.horizontalLayoutWidget_5)
+        self.btn_reg3.setStyleSheet("\n"
+"QComboBox {\n"
+"    background-color: rgba(40, 38, 52, 220);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    border: 1px solid rgba(190, 165, 225, 170);\n"
+"    border-radius: 8px;\n"
+"    padding: 7px 10px;\n"
+"    color: rgb(245, 240, 255);\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    border: 1px solid rgb(210, 185, 245);\n"
+"}\n"
+"\n"
+"QComboBox:focus {\n"
+"    border: 1px solid rgb(220, 190, 255);\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    subcontrol-origin: padding;\n"
+"    subcontrol-position: top right;\n"
+"    width: 30px;\n"
+"    border: none;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    image: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    background: transparent;\n"
+"    border-right: 2px solid white;\n"
+"    border-bottom: 2px solid white;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: rgb(40, 38, 52);\n"
+"    color: rgb(245, 240, 255);\n"
+"    selection-background-color: rgb(100, 82, 130);\n"
+"    selection-color: white;\n"
+"    border: 1px solid rgb(160, 135, 195);\n"
+"    outline: none;\n"
+"}\n"
+"")
         self.btn_reg3.setObjectName("btn_reg3")
         self.horizontalLayout_5.addWidget(self.btn_reg3)
         self.verticalLayoutWidget_2 = QtWidgets.QWidget(parent=Form_profile)
@@ -130,18 +883,63 @@ class Ui_Form_profile(object):
         self.verticalLayout_4 = QtWidgets.QVBoxLayout(self.verticalLayoutWidget_2)
         self.verticalLayout_4.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_4.setObjectName("verticalLayout_4")
-        self.label_11 = QtWidgets.QLabel(parent=self.verticalLayoutWidget_2)
-        self.label_11.setObjectName("label_11")
-        self.verticalLayout_4.addWidget(self.label_11)
-        self.label_12 = QtWidgets.QLabel(parent=self.verticalLayoutWidget_2)
-        self.label_12.setObjectName("label_12")
-        self.verticalLayout_4.addWidget(self.label_12)
-        self.dateEdit = QtWidgets.QDateEdit(parent=self.verticalLayoutWidget_2)
-        self.dateEdit.setObjectName("dateEdit")
-        self.verticalLayout_4.addWidget(self.dateEdit)
-        self.label_13 = QtWidgets.QLabel(parent=self.verticalLayoutWidget_2)
-        self.label_13.setObjectName("label_13")
-        self.verticalLayout_4.addWidget(self.label_13)
+        self.label_nickname = QtWidgets.QLabel(parent=self.verticalLayoutWidget_2)
+        font = QtGui.QFont()
+        font.setFamily("MS Serif")
+        font.setPointSize(16)
+        self.label_nickname.setFont(font)
+        self.label_nickname.setStyleSheet("background-color: transparent;\n"
+"color: rgb(225, 225, 225);\n"
+"border-image: none;")
+        self.label_nickname.setObjectName("label_nickname")
+        self.verticalLayout_4.addWidget(self.label_nickname)
+        self.label_name = QtWidgets.QLabel(parent=self.verticalLayoutWidget_2)
+        font = QtGui.QFont()
+        font.setFamily("MS Serif")
+        font.setPointSize(16)
+        self.label_name.setFont(font)
+        self.label_name.setStyleSheet("background-color: transparent;\n"
+"color: rgb(225, 225, 225);\n"
+"border-image: none;")
+        self.label_name.setObjectName("label_name")
+        self.verticalLayout_4.addWidget(self.label_name)
+        self.dateedit = QtWidgets.QDateEdit(parent=self.verticalLayoutWidget_2)
+        self.dateedit.setStyleSheet("")
+        self.dateedit.setObjectName("dateedit")
+        self.verticalLayout_4.addWidget(self.dateedit)
+        self.label_number = QtWidgets.QLabel(parent=self.verticalLayoutWidget_2)
+        font = QtGui.QFont()
+        font.setFamily("MS Serif")
+        font.setPointSize(16)
+        self.label_number.setFont(font)
+        self.label_number.setStyleSheet("background-color: transparent;\n"
+"color: rgb(225, 225, 225);\n"
+"border-image: none;")
+        self.label_number.setObjectName("label_number")
+        self.verticalLayout_4.addWidget(self.label_number)
+        self.btn_settings = QtWidgets.QPushButton(parent=Form_profile)
+        self.btn_settings.setGeometry(QtCore.QRect(920, 30, 93, 28))
+        self.btn_settings.setStyleSheet("\n"
+"QPushButton {\n"
+"    background-color: rgba(180, 160, 210, 90);\n"
+"    background-image: none;\n"
+"    border-image: none;\n"
+"    color: rgb(245, 240, 255);\n"
+"    border: 1px solid rgba(220, 205, 255, 150);\n"
+"    border-radius: 8px;\n"
+"    padding: 6px 12px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: rgba(180, 160, 210, 140);\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: rgba(140, 120, 175, 180);\n"
+"}\n"
+"\n"
+"")
+        self.btn_settings.setObjectName("btn_settings")
 
         self.retranslateUi(Form_profile)
         QtCore.QMetaObject.connectSlotsByName(Form_profile)
@@ -159,6 +957,7 @@ class Ui_Form_profile(object):
         self.label_8.setText(_translate("Form_profile", "Любимые актеры:"))
         self.label_9.setText(_translate("Form_profile", "Любимые сценаристы:"))
         self.label_10.setText(_translate("Form_profile", "Любимые иные участники кино:"))
-        self.label_11.setText(_translate("Form_profile", "TextLabel"))
-        self.label_12.setText(_translate("Form_profile", "TextLabel"))
-        self.label_13.setText(_translate("Form_profile", "TextLabel"))
+        self.label_nickname.setText(_translate("Form_profile", "TextLabel"))
+        self.label_name.setText(_translate("Form_profile", "TextLabel"))
+        self.label_number.setText(_translate("Form_profile", "TextLabel"))
+        self.btn_settings.setText(_translate("Form_profile", "Настройки"))

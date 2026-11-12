@@ -59,8 +59,8 @@ class Ui_Form(object):
         self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.verticalLayoutWidget_2)
         self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_2.setObjectName("verticalLayout_2")
-        self.lineEdit_nickname = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_2)
-        self.lineEdit_nickname.setStyleSheet("QLineEdit {\n"
+        self.lineedit_nickname = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_2)
+        self.lineedit_nickname.setStyleSheet("QLineEdit {\n"
 "    background-color: rgba(35, 39, 55, 220);\n"
 "    border-image: none;\n"
 "    color: white;\n"
@@ -75,10 +75,10 @@ class Ui_Form(object):
 "}\n"
 "\n"
 "")
-        self.lineEdit_nickname.setObjectName("lineEdit_nickname")
-        self.verticalLayout_2.addWidget(self.lineEdit_nickname)
-        self.lineEdit_password = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_2)
-        self.lineEdit_password.setStyleSheet("QLineEdit {\n"
+        self.lineedit_nickname.setObjectName("lineedit_nickname")
+        self.verticalLayout_2.addWidget(self.lineedit_nickname)
+        self.lineedit_password = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_2)
+        self.lineedit_password.setStyleSheet("QLineEdit {\n"
 "    background-color: rgba(35, 39, 55, 220);\n"
 "    border-image: none;\n"
 "    color: white;\n"
@@ -93,15 +93,15 @@ class Ui_Form(object):
 "}\n"
 "\n"
 "")
-        self.lineEdit_password.setObjectName("lineEdit_password")
-        self.verticalLayout_2.addWidget(self.lineEdit_password)
-        self.pushButton_zaregestrirovat = QtWidgets.QPushButton(parent=Form)
-        self.pushButton_zaregestrirovat.setGeometry(QtCore.QRect(370, 310, 271, 51))
+        self.lineedit_password.setObjectName("lineedit_password")
+        self.verticalLayout_2.addWidget(self.lineedit_password)
+        self.pushbutton_zaregestrirovat = QtWidgets.QPushButton(parent=Form)
+        self.pushbutton_zaregestrirovat.setGeometry(QtCore.QRect(370, 310, 271, 51))
         font = QtGui.QFont()
         font.setFamily("MS Serif")
         font.setPointSize(11)
-        self.pushButton_zaregestrirovat.setFont(font)
-        self.pushButton_zaregestrirovat.setStyleSheet("\n"
+        self.pushbutton_zaregestrirovat.setFont(font)
+        self.pushbutton_zaregestrirovat.setStyleSheet("\n"
 "QPushButton {\n"
 "    background-color: rgba(180, 160, 210, 90);\n"
 "    background-image: none;\n"
@@ -120,7 +120,7 @@ class Ui_Form(object):
 "    background-color: rgba(140, 120, 175, 180);\n"
 "}\n"
 "")
-        self.pushButton_zaregestrirovat.setObjectName("pushButton_zaregestrirovat")
+        self.pushbutton_zaregestrirovat.setObjectName("pushbutton_zaregestrirovat")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -131,4 +131,4 @@ class Ui_Form(object):
         self.label.setText(_translate("Form", "Вход"))
         self.label_3.setText(_translate("Form", "Никнейм:"))
         self.label_13.setText(_translate("Form", "Пароль:"))
-        self.pushButton_zaregestrirovat.setText(_translate("Form", "Продолжить"))
+        self.pushbutton_zaregestrirovat.setText(_translate("Form", "Продолжить"))

@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'Registration.ui'
+# Form implementation generated from reading ui file 'src/files_ui/registration.ui'
 #
 # Created by: PyQt6 UI code generator 6.11.0
 #
@@ -188,13 +188,13 @@ class Ui_Form(object):
         self.label_11.setObjectName("label_11")
         self.verticalLayout_2.addWidget(self.label_11)
         self.verticalLayoutWidget_3 = QtWidgets.QWidget(parent=Form)
-        self.verticalLayoutWidget_3.setGeometry(QtCore.QRect(650, 90, 191, 211))
+        self.verticalLayoutWidget_3.setGeometry(QtCore.QRect(650, 90, 227, 247))
         self.verticalLayoutWidget_3.setObjectName("verticalLayoutWidget_3")
         self.verticalLayout_3 = QtWidgets.QVBoxLayout(self.verticalLayoutWidget_3)
         self.verticalLayout_3.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_3.setObjectName("verticalLayout_3")
-        self.lineEdit_name = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_3)
-        self.lineEdit_name.setStyleSheet("QLineEdit {\n"
+        self.lineedit_name = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_3)
+        self.lineedit_name.setStyleSheet("QLineEdit {\n"
 "    background-color: rgba(35, 39, 55, 220);\n"
 "    border-image: none;\n"
 "    color: white;\n"
@@ -209,10 +209,10 @@ class Ui_Form(object):
 "}\n"
 "\n"
 "")
-        self.lineEdit_name.setObjectName("lineEdit_name")
-        self.verticalLayout_3.addWidget(self.lineEdit_name)
-        self.lineEdit_nickname = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_3)
-        self.lineEdit_nickname.setStyleSheet("\n"
+        self.lineedit_name.setObjectName("lineedit_name")
+        self.verticalLayout_3.addWidget(self.lineedit_name)
+        self.lineedit_nickname = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_3)
+        self.lineedit_nickname.setStyleSheet("\n"
 "QLineEdit {\n"
 "    background-color: rgba(35, 39, 55, 220);\n"
 "    border-image: none;\n"
@@ -227,10 +227,10 @@ class Ui_Form(object):
 "    border: 1px solid rgb(220, 180, 255);\n"
 "}\n"
 "")
-        self.lineEdit_nickname.setObjectName("lineEdit_nickname")
-        self.verticalLayout_3.addWidget(self.lineEdit_nickname)
-        self.lineEdit_number = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_3)
-        self.lineEdit_number.setStyleSheet("\n"
+        self.lineedit_nickname.setObjectName("lineedit_nickname")
+        self.verticalLayout_3.addWidget(self.lineedit_nickname)
+        self.lineedit_number = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_3)
+        self.lineedit_number.setStyleSheet("\n"
 "QLineEdit {\n"
 "    background-color: rgba(35, 39, 55, 220);\n"
 "    border-image: none;\n"
@@ -245,10 +245,10 @@ class Ui_Form(object):
 "    border: 1px solid rgb(220, 180, 255);\n"
 "}\n"
 "")
-        self.lineEdit_number.setObjectName("lineEdit_number")
-        self.verticalLayout_3.addWidget(self.lineEdit_number)
-        self.dateEdit_dr = QtWidgets.QDateEdit(parent=self.verticalLayoutWidget_3)
-        self.dateEdit_dr.setStyleSheet("\n"
+        self.lineedit_number.setObjectName("lineedit_number")
+        self.verticalLayout_3.addWidget(self.lineedit_number)
+        self.dateedit_dr = QtWidgets.QDateEdit(parent=self.verticalLayoutWidget_3)
+        self.dateedit_dr.setStyleSheet("\n"
 "QDateEdit {\n"
 "    background-color: rgba(35, 39, 55, 220);\n"
 "    border-image: none;\n"
@@ -274,11 +274,11 @@ class Ui_Form(object):
 "    height: 8px;\n"
 "}\n"
 "")
-        self.dateEdit_dr.setCalendarPopup(True)
-        self.dateEdit_dr.setObjectName("dateEdit_dr")
-        self.verticalLayout_3.addWidget(self.dateEdit_dr)
-        self.lineEdit_password = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_3)
-        self.lineEdit_password.setStyleSheet("\n"
+        self.dateedit_dr.setCalendarPopup(True)
+        self.dateedit_dr.setObjectName("dateedit_dr")
+        self.verticalLayout_3.addWidget(self.dateedit_dr)
+        self.lineedit_password = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_3)
+        self.lineedit_password.setStyleSheet("\n"
 "QLineEdit {\n"
 "    background-color: rgba(35, 39, 55, 220);\n"
 "    border-image: none;\n"
@@ -293,15 +293,15 @@ class Ui_Form(object):
 "    border: 1px solid rgb(220, 180, 255);\n"
 "}\n"
 "")
-        self.lineEdit_password.setObjectName("lineEdit_password")
-        self.verticalLayout_3.addWidget(self.lineEdit_password)
-        self.pushButton = QtWidgets.QPushButton(parent=Form)
-        self.pushButton.setGeometry(QtCore.QRect(430, 650, 121, 28))
+        self.lineedit_password.setObjectName("lineedit_password")
+        self.verticalLayout_3.addWidget(self.lineedit_password)
+        self.pushbutton = QtWidgets.QPushButton(parent=Form)
+        self.pushbutton.setGeometry(QtCore.QRect(430, 650, 121, 28))
         font = QtGui.QFont()
         font.setFamily("MS Serif")
         font.setPointSize(11)
-        self.pushButton.setFont(font)
-        self.pushButton.setStyleSheet("\n"
+        self.pushbutton.setFont(font)
+        self.pushbutton.setStyleSheet("\n"
 "QPushButton {\n"
 "    background-color: rgba(180, 160, 210, 90);\n"
 "    background-image: none;\n"
@@ -321,7 +321,7 @@ class Ui_Form(object):
 "}\n"
 "\n"
 "")
-        self.pushButton.setObjectName("pushButton")
+        self.pushbutton.setObjectName("pushbutton")
         self.label_12 = QtWidgets.QLabel(parent=Form)
         self.label_12.setGeometry(QtCore.QRect(370, 620, 251, 16))
         font = QtGui.QFont()
@@ -346,7 +346,7 @@ class Ui_Form(object):
         self.labe_foto.setMinimumSize(QtCore.QSize(30, 30))
         self.labe_foto.setMaximumSize(QtCore.QSize(30, 30))
         self.labe_foto.setText("")
-        self.labe_foto.setPixmap(QtGui.QPixmap("../../Downloads/проФИЛЬ.jpg"))
+        self.labe_foto.setPixmap(QtGui.QPixmap("src/files_ui\\../../Downloads/проФИЛЬ.jpg"))
         self.labe_foto.setScaledContents(True)
         self.labe_foto.setObjectName("labe_foto")
         self.horizontalLayout.addWidget(self.labe_foto)
@@ -375,8 +375,8 @@ class Ui_Form(object):
         self.btn_upload_photo.setObjectName("btn_upload_photo")
         self.horizontalLayout.addWidget(self.btn_upload_photo)
         self.verticalLayout_4.addLayout(self.horizontalLayout)
-        self.comboBox_kino = QtWidgets.QComboBox(parent=self.verticalLayoutWidget_4)
-        self.comboBox_kino.setStyleSheet("\n"
+        self.combobox_kino = QtWidgets.QComboBox(parent=self.verticalLayoutWidget_4)
+        self.combobox_kino.setStyleSheet("\n"
 "QComboBox {\n"
 "    background-color: rgba(40, 38, 52, 220);\n"
 "    background-image: none;\n"
@@ -422,12 +422,12 @@ class Ui_Form(object):
 "    outline: none;\n"
 "}\n"
 "")
-        self.comboBox_kino.setEditable(False)
-        self.comboBox_kino.setCurrentText("")
-        self.comboBox_kino.setObjectName("comboBox_kino")
-        self.verticalLayout_4.addWidget(self.comboBox_kino)
-        self.comboBox_regisers = QtWidgets.QComboBox(parent=self.verticalLayoutWidget_4)
-        self.comboBox_regisers.setStyleSheet("\n"
+        self.combobox_kino.setEditable(False)
+        self.combobox_kino.setCurrentText("")
+        self.combobox_kino.setObjectName("combobox_kino")
+        self.verticalLayout_4.addWidget(self.combobox_kino)
+        self.combobox_regisers = QtWidgets.QComboBox(parent=self.verticalLayoutWidget_4)
+        self.combobox_regisers.setStyleSheet("\n"
 "QComboBox {\n"
 "    background-color: rgba(40, 38, 52, 220);\n"
 "    background-image: none;\n"
@@ -473,12 +473,12 @@ class Ui_Form(object):
 "    outline: none;\n"
 "}\n"
 "")
-        self.comboBox_regisers.setEditable(False)
-        self.comboBox_regisers.setCurrentText("")
-        self.comboBox_regisers.setObjectName("comboBox_regisers")
-        self.verticalLayout_4.addWidget(self.comboBox_regisers)
-        self.comboBox_acters = QtWidgets.QComboBox(parent=self.verticalLayoutWidget_4)
-        self.comboBox_acters.setStyleSheet("\n"
+        self.combobox_regisers.setEditable(False)
+        self.combobox_regisers.setCurrentText("")
+        self.combobox_regisers.setObjectName("combobox_regisers")
+        self.verticalLayout_4.addWidget(self.combobox_regisers)
+        self.combobox_acters = QtWidgets.QComboBox(parent=self.verticalLayoutWidget_4)
+        self.combobox_acters.setStyleSheet("\n"
 "QComboBox {\n"
 "    background-color: rgba(40, 38, 52, 220);\n"
 "    background-image: none;\n"
@@ -524,12 +524,12 @@ class Ui_Form(object):
 "    outline: none;\n"
 "}\n"
 "")
-        self.comboBox_acters.setEditable(False)
-        self.comboBox_acters.setCurrentText("")
-        self.comboBox_acters.setObjectName("comboBox_acters")
-        self.verticalLayout_4.addWidget(self.comboBox_acters)
-        self.comboBox_scenario = QtWidgets.QComboBox(parent=self.verticalLayoutWidget_4)
-        self.comboBox_scenario.setStyleSheet("\n"
+        self.combobox_acters.setEditable(False)
+        self.combobox_acters.setCurrentText("")
+        self.combobox_acters.setObjectName("combobox_acters")
+        self.verticalLayout_4.addWidget(self.combobox_acters)
+        self.combobox_scenario = QtWidgets.QComboBox(parent=self.verticalLayoutWidget_4)
+        self.combobox_scenario.setStyleSheet("\n"
 "QComboBox {\n"
 "    background-color: rgba(40, 38, 52, 220);\n"
 "    background-image: none;\n"
@@ -575,10 +575,10 @@ class Ui_Form(object):
 "    outline: none;\n"
 "}\n"
 "")
-        self.comboBox_scenario.setObjectName("comboBox_scenario")
-        self.verticalLayout_4.addWidget(self.comboBox_scenario)
-        self.comboBox_uchastnik = QtWidgets.QComboBox(parent=self.verticalLayoutWidget_4)
-        self.comboBox_uchastnik.setStyleSheet("\n"
+        self.combobox_scenario.setObjectName("combobox_scenario")
+        self.verticalLayout_4.addWidget(self.combobox_scenario)
+        self.combobox_uchastnik = QtWidgets.QComboBox(parent=self.verticalLayoutWidget_4)
+        self.combobox_uchastnik.setStyleSheet("\n"
 "QComboBox {\n"
 "    background-color: rgba(40, 38, 52, 220);\n"
 "    background-image: none;\n"
@@ -624,17 +624,17 @@ class Ui_Form(object):
 "    outline: none;\n"
 "}\n"
 "")
-        self.comboBox_uchastnik.setEditable(False)
-        self.comboBox_uchastnik.setCurrentText("")
-        self.comboBox_uchastnik.setObjectName("comboBox_uchastnik")
-        self.verticalLayout_4.addWidget(self.comboBox_uchastnik)
-        self.pushButton_zaregestrirovat = QtWidgets.QPushButton(parent=Form)
-        self.pushButton_zaregestrirovat.setGeometry(QtCore.QRect(740, 640, 221, 31))
+        self.combobox_uchastnik.setEditable(False)
+        self.combobox_uchastnik.setCurrentText("")
+        self.combobox_uchastnik.setObjectName("combobox_uchastnik")
+        self.verticalLayout_4.addWidget(self.combobox_uchastnik)
+        self.pushbutton_zaregestrirovat = QtWidgets.QPushButton(parent=Form)
+        self.pushbutton_zaregestrirovat.setGeometry(QtCore.QRect(740, 640, 221, 31))
         font = QtGui.QFont()
         font.setFamily("MS Serif")
         font.setPointSize(11)
-        self.pushButton_zaregestrirovat.setFont(font)
-        self.pushButton_zaregestrirovat.setStyleSheet("\n"
+        self.pushbutton_zaregestrirovat.setFont(font)
+        self.pushbutton_zaregestrirovat.setStyleSheet("\n"
 "QPushButton {\n"
 "    background-color: rgba(180, 160, 210, 90);\n"
 "    background-image: none;\n"
@@ -653,14 +653,14 @@ class Ui_Form(object):
 "    background-color: rgba(140, 120, 175, 180);\n"
 "}\n"
 "")
-        self.pushButton_zaregestrirovat.setObjectName("pushButton_zaregestrirovat")
-        self.pushButton_entrance = QtWidgets.QPushButton(parent=Form)
-        self.pushButton_entrance.setGeometry(QtCore.QRect(100, 650, 121, 31))
+        self.pushbutton_zaregestrirovat.setObjectName("pushbutton_zaregestrirovat")
+        self.pushbutton_entrance = QtWidgets.QPushButton(parent=Form)
+        self.pushbutton_entrance.setGeometry(QtCore.QRect(100, 650, 121, 31))
         font = QtGui.QFont()
         font.setFamily("MS Serif")
         font.setPointSize(11)
-        self.pushButton_entrance.setFont(font)
-        self.pushButton_entrance.setStyleSheet("\n"
+        self.pushbutton_entrance.setFont(font)
+        self.pushbutton_entrance.setStyleSheet("\n"
 "QPushButton {\n"
 "    background-color: rgba(180, 160, 210, 90);\n"
 "    background-image: none;\n"
@@ -679,7 +679,7 @@ class Ui_Form(object):
 "    background-color: rgba(140, 120, 175, 180);\n"
 "}\n"
 "")
-        self.pushButton_entrance.setObjectName("pushButton_entrance")
+        self.pushbutton_entrance.setObjectName("pushbutton_entrance")
         self.label_14 = QtWidgets.QLabel(parent=Form)
         self.label_14.setGeometry(QtCore.QRect(70, 600, 181, 51))
         font = QtGui.QFont()
@@ -720,10 +720,10 @@ class Ui_Form(object):
         self.label_10.setText(_translate("Form", "Любимый актер:"))
         self.label.setText(_translate("Form", "Любимый сценарист:"))
         self.label_11.setText(_translate("Form", "Иной запомнившийся участник кино:"))
-        self.pushButton.setText(_translate("Form", "Добавить"))
+        self.pushbutton.setText(_translate("Form", "Добавить"))
         self.label_12.setText(_translate("Form", "Не нашли то, что нужно?"))
         self.btn_upload_photo.setText(_translate("Form", "Загрузить фото"))
-        self.pushButton_zaregestrirovat.setText(_translate("Form", "Продолжить"))
-        self.pushButton_entrance.setText(_translate("Form", "Войти"))
+        self.pushbutton_zaregestrirovat.setText(_translate("Form", "Продолжить"))
+        self.pushbutton_entrance.setText(_translate("Form", "Войти"))
         self.label_14.setText(_translate("Form", "Уже есть аккаунт?"))
         self.label_15.setText(_translate("Form", "*Больше любимого кино, режиссеров и тд можно будет добавить позже"))

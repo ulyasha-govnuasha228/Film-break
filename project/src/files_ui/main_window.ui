@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>966</width>
+    <height>521</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>691</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Serif</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: rgb(225, 225, 225);
+border-image: none;</string>
+    </property>
+    <property name="text">
+     <string>Здравствуйте!</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>966</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>BottomToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="btn_watched"/>
+   <addaction name="btn_realwatched"/>
+   <addaction name="btn_profile"/>
+  </widget>
+  <action name="btn_profile">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/прооооо.png</normaloff>../../Downloads/прооооо.png</iconset>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="toolTip">
+    <string>Профиль</string>
+   </property>
+  </action>
+  <action name="btn_watched">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/попкорн.webp</normaloff>../../Downloads/попкорн.webp</iconset>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="toolTip">
+    <string>Хочу посмотреть</string>
+   </property>
+  </action>
+  <action name="btn_realwatched">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/cup_game_geek_minecraft_mug_video_icon_183182-edited-free (carve.photos).png</normaloff>../../Downloads/cup_game_geek_minecraft_mug_video_icon_183182-edited-free (carve.photos).png</iconset>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+   <property name="toolTip">
+    <string>Просмотрено</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
